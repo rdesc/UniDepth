@@ -2,8 +2,8 @@ appdirs
 attrs
 black
 blosc2
-botocore
-certifi
+botocore==1.34.54
+certifi==2022.12.7
 charset-normalizer
 click
 contourpy
@@ -19,8 +19,8 @@ fsspec
 fvcore==0.1.5.post20221221
 gitdb
 GitPython
-h5py
-huggingface-hub
+h5py>=3.10.0
+huggingface-hub>=0.22.0
 idna
 imageio
 imath
@@ -45,10 +45,10 @@ OpenEXR
 packaging
 pandas
 pathspec
-pillow
+pillow==10.2.0
 platformdirs
 portalocker
-protobuf
+protobuf==4.25.3
 psutil
 py-cpuinfo
 pycodestyle
@@ -75,11 +75,11 @@ timm
 tqdm
 triton
 typing_extensions
-tzdata
-urllib3
+tzdata==2024.1
+urllib3==1.26.13
 wandb
 yacs
 # torch==2.2.0
 # torchvision==0.17.0
 # torchaudio==2.2.0
-xformers
+xformers==0.0.24
