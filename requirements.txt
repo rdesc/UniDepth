@@ -48,7 +48,7 @@ pathspec
 pillow==10.2.0
 platformdirs
 portalocker
-protobuf==4.25.3
+protobuf
 psutil
 py-cpuinfo
 pycodestyle
