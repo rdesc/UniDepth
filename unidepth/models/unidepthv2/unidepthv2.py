@@ -258,7 +258,7 @@ class UniDepthV2(
             new_upbound = (self.resolution_level + 1) * interval + pixels_bounds[0]
             pixels_bounds = (new_lowbound, new_upbound)
         else:
-            warnings.warn("!! self.resolution_level not set, using default bounds !!")
+            print("!! self.resolution_level not set, using default bounds !!")
 
         # houskeeping on cpu/cuda and batchify
         if rgb.ndim == 3:
